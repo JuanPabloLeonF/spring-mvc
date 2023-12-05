@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+    <head>
+        <title>[[#{title.Control.person}]]</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header th:replace="layout/template :: header"></header>
+        <a th:href="@{/addPerson}">[[#{person.create}]]</a>
+        <br>
+        <div th:if="${listPerson != null && !listPerson.empty}">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>[[#{th.name}]]</th>
+                        <th>[[#{th.lastName}]]</th>
+                        <th>[[#{th.email}]]</th>
+                        <th>[[#{th.phone}]]</th>
+                        <th>[[#{th.edit}]]</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="person : ${listPerson}">
+                        <td th:text="${person.name}"></td>
+                        <td th:text="${person.lastName}"></td>
+                        <td th:text="${person.email}"></td>
+                        <td th:text="${person.phone}"></td>
+                        <td>
+                            <a th:href="@{/modifyPerson/} + ${person.idPerson}">
+                                <i class='bx bxs-edit-alt bx-sm'></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a th:href="@{/deletePerson(idPerson = ${person.idPerson})}">
+                                <i class='bx bx-message-square-x bx-sm'></i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div th:if="${listPerson == null || listPerson.empty}">
+            <h1>[[#{div.h1-listPerson}]]</h1>
+        </div>
+        <footer th:replace="layout/template :: footer"></footer>
+    </body>
+</html>

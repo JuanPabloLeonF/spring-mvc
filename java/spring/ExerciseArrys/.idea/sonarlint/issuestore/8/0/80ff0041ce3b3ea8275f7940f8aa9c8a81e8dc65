@@ -1,0 +1,8 @@
+
+y	java:S127+"XRefactor the code in order to not assign to this loop counter from within the loop body.(õïù„şÿÿÿÿ8•ø¤1
+E
+java:S5411#"(Use a primitive boolean expression here.(›Ñà„8úĞø¤1
+[
+java:S3516<"9Refactor this method to not always return the same value.(Ìçİøÿÿÿÿ8®•ø¤1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(“×·ôşÿÿÿÿ8®•ø¤1
+W	java:S125"<This block of commented-out lines of code should be removed.(’É‰t8Í•ø¤1

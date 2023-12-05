@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Usando thymeleaf</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Inicio pagina</h1>
+        <br>
+        <div th:if="${listPerson != null && !listPerson.empty}">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Correo</th>
+                        <th>Telefono</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="person : ${listPerson}">
+                        <td th:text="${person.name}"></td>
+                        <td th:text="${person.lastName}"></td>
+                        <td th:text="${person.email}"></td>
+                        <td th:text="${person.phone}"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div th:if="${listPerson == null || listPerson.empty}">
+            La lista de personas esta vacia
+        </div>
+    </body>
+</html>

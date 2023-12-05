@@ -1,0 +1,14 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÓË°úÿÿÿÿ8ÒÉÉû 1
+x
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(œãœŠÿÿÿÿÿ8ñÉÉû 1
+W
+java:S1611"5Remove the parentheses around the "number1" parameter(œãœŠÿÿÿÿÿ8ñÉÉû 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…¤‰¾ûÿÿÿÿ8ñÉÉû 1
+s
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(±·şİ8ñÉÉû 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(èé—ºıÿÿÿÿ8ñÉÉû 1
+x
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(¦úè¢ùÿÿÿÿ8ñÉÉû 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ®³Öøÿÿÿÿ8ñÉÉû 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ù ñ²ÿÿÿÿÿ8ñÉÉû 1

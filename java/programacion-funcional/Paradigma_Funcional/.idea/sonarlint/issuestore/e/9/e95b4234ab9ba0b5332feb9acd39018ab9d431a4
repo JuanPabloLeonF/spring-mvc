@@ -1,0 +1,16 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÓË°úÿÿÿÿ8¹î×ó 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¹•ô8ëî×ó 1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(“˜Å/8ëî×ó 1
+
+java:S4276"]Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Integer>'(£ş¦İøÿÿÿÿ8ëî×ó 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(õ¹óşÿÿÿÿ8ëî×ó 1
+t
+java:S4276"WRefactor this code to use the more specialised Functional Interface 'IntBinaryOperator'(ç‰¾¤8ëî×ó 1
+^
+java:S1481"ARemove this unused "multiplicationBinaryOperator" local variable.(ç‰¾¤8úî×ó 1
+^
+java:S3457"AFormat specifiers should be used instead of string concatenation.(‚ö†ó8úî×ó 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(úÛ’ùÿÿÿÿ8úî×ó 1
+M
+java:S1481"0Remove this unused "formateator" local variable.(›ó¯»8úî×ó 1

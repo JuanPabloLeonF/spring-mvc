@@ -1,0 +1,17 @@
+
+E
+java:S1604	"(Make this anonymous inner class a lambda(Ê¡âç8¼Şò 1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞÓË°úÿÿÿÿ8¼Şò 1
+s
+java:S4276	"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(Ê¡âç8ëŞò 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(­úâø8úŞò 1
+x
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(µÀÑÑûÿÿÿÿ8úŞò 1
+z
+java:S4276"XRefactor this code to use the more specialised Functional Interface 'Predicate<Integer>'(œæÎøÿÿÿÿ8ŠŞò 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(õ¦ºñ8ŠŞò 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(÷æ˜’8šŞò 1
+o
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(Ò¤€8©Şò 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÇî¨úÿÿÿÿ8©Şò 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÒÍõìıÿÿÿÿ8¹Şò 1

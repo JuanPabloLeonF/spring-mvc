@@ -1,0 +1,13 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”‰ßüÿÿÿÿ8ï½ş 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÛÛ¦û8½ş 1
+^
+java:S1612"AReplace this lambda with method reference 'CharSequence::length'.(®Šâ¥8³½ş 1
+N
+java:S1481",Remove this unused "longest" local variable.(»Ì¨õÿÿÿÿÿ8»½ş 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ä¢Ë×üÿÿÿÿ8À½ş 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(»ûöéüÿÿÿÿ8À½ş 1
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(Ü›ûŸ8Ğ½ş 1
+C
+java:S3864&"!Remove this use of "Stream.peek".(şË¦ñşÿÿÿÿ8À½ş 1
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(şË¦ñşÿÿÿÿ8‚“¾ş 1

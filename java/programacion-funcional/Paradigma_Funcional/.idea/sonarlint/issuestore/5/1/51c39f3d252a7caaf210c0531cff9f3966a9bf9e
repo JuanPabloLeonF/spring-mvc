@@ -1,0 +1,10 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÞÓË°úÿÿÿÿ8Öºÿò 1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Œžý‰8åºÿò 1
+>
+java:S1116
+"Remove this empty statement.(ŸÞú°ùÿÿÿÿ8åºÿò 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¥–°Ó8åºÿò 1
+[
+java:S1612">Replace this lambda with method reference 'CLIArguments::new'.(šå¸é8õºÿò 1
